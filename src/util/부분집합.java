@@ -17,7 +17,7 @@ public class 부분집합 {
 		
 		
 		
-		subset(0,0);
+		subset(0,-5);
 	}
 
 	private static void subset(int now,int sum) { 
@@ -26,6 +26,7 @@ public class 부분집합 {
 			if(sum == 0) {
 				for (int i = 0; i < N; i++) {
 					System.out.print(isSelected[i]?input[i]:"X");
+					//System.out.print(input[i]);
 					System.out.print("\t");
 				}
 				System.out.println();
