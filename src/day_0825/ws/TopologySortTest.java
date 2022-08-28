@@ -31,7 +31,7 @@ public class TopologySortTest {
 		V = Integer.parseInt(st.nextToken());
 		E = Integer.parseInt(st.nextToken());
 		
-		adjList = new Node[V+1]; // 각 정점별 인접리스트
+		adjList = new Node[V+1]; // 각 정점별 인접리스트//
 		inDegree = new int[V+1]; // 정점별 진입차수 
 		
 		for (int i = 0; i < E; i++) {
