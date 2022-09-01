@@ -37,14 +37,15 @@ public class Main_B15686 {
                 }
             }
         }
-        getMinDistance(0, 0);
+        getMinDistance(0);
         sb.append(result);
         bw.write(sb.toString());
         bw.flush();
         bw.close();
         br.close();
+        //
     }
-    static void getMinDistance(int cnt, int start) {
+    static void getMinDistance(int cnt) {
         if(cnt == 2) {
             int[] hPos = home.get(arr[0]);
             int[] cPos = chicken.get(arr[1]);
@@ -54,9 +55,10 @@ public class Main_B15686 {
             }
             return;
         }
-        for(int i = start; i < N; i++) {
+        for(int i = 1; i <= home.size(); i++) {
+            if(cnt == 1 && i > chicken.size()) break;
             arr[cnt] = i;
-            getMinDistance(cnt + 1, start + 1);
+            getMinDistance(cnt + 1);
         }
     }
     static int getDistance(int[] arr1, int[] arr2) {
