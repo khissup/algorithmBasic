@@ -3,10 +3,10 @@ package day_0904.ex;
 import java.net.*;
 import java.io.*;
 
-public class Main_Test {
+public class Test {
 
     // 닉네임을 사용자에 맞게 변경해 주세요.
-    static final String NICKNAME = "Main_Test";
+    static final String NICKNAME = "Test";
 
     // 일타싸피 프로그램을 로컬에서 실행할 경우 변경하지 않습니다.
     static final String HOST = "127.0.0.1";
@@ -177,7 +177,7 @@ public class Main_Test {
                  double angle = 0;
                 double power = 110;
                 double dx = 0;
-                double dy = 0;
+                double dy = 0;//
                 if(balls[1][0]!= 0 && balls[1][1] != 0) {
                 	power = 115;
                 	dx = balls[1][0] - balls[0][0];
