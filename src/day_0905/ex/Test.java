@@ -189,7 +189,7 @@ public class Test {
                 }else if(balls[2][0] != 0 && balls[2][1] != 0) {
                 	power = 115;
                 	dx = balls[2][0] - balls[0][0];
-                	dy = balls[2][1] - balls[0][1];
+                	dy = balls[2][1] - balls[0][1];//
 
                 	double 각도  = Math.atan2(dy,dx);
                 	각도 = 각도 * 180 / Math.PI;
