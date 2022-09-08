@@ -173,7 +173,7 @@ public class Test {
                 power = (float) distance;
 
                 /*
-                2
+
                  double angle = 0;
                 double power = 110;
                 double dx = 0;
