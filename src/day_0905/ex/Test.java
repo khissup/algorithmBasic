@@ -177,7 +177,7 @@ public class Test {
                  double angle = 0;
                 double power = 110;
                 double dx = 0;
-                double dy = 0;//
+                double dy = 0;
                 if(balls[1][0]!= 0 && balls[1][1] != 0) {
                 	power = 115;
                 	dx = balls[1][0] - balls[0][0];
