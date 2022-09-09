@@ -119,7 +119,7 @@ public class Test {
 
                 // width, height: 목적구와 흰 공의 X좌표 간의 거리, Y좌표 간의 거리
                 float width = Math.abs(targetBall_x - whiteBall_x);
-                float height = Math.abs(targetBall_y - whiteBall_y);
+                float height = Math.abs(targetBall_y - whiteBall_y);//
 
                 // radian: width와 height를 두 변으로 하는 직각삼각형의 각도를 구한 결과
                 //   - 1radian = 180 / PI (도)
