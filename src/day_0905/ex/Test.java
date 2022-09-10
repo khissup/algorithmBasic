@@ -109,7 +109,7 @@ public class Test {
 
 
 
-                // whiteBall_x, whiteBall_y: 흰 공의 X, Y좌표를 나타내기 위해 사용한 변수
+                // whiteBall_x, whiteBall_y: 흰 공의 X, Y좌표를 나타내기 위해 사용한 변수//
                 float whiteBall_x = balls[0][0];
                 float whiteBall_y = balls[0][1];
 
