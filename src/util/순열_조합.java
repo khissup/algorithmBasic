@@ -53,7 +53,7 @@ public class 순열_조합 {
 	private static void dice2(int cnt) { //순열
 		if(cnt == N) {
 			System.out.println(Arrays.toString(numbers));
-			
+			//
 			return;
 		}
 		
@@ -64,7 +64,7 @@ public class 순열_조합 {
 			// 해당 수 선택
 			numbers[cnt] = i;
 			isSelected[i] = true;
-			// 다음 주사위던지러 가기
+			// 다음 주사위던지러 가기//
 			dice2(cnt+1);
 			isSelected[i] = false;
 		}
