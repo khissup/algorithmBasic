@@ -63,7 +63,7 @@ public class 순열_조합 {
 			if(isSelected[i]) continue;
 			// 해당 수 선택
 			numbers[cnt] = i;
-			isSelected[i] = true;
+			isSelected[i] = true;//
 			// 다음 주사위던지러 가기////
 			dice2(cnt+1);////
 			isSelected[i] = false;
