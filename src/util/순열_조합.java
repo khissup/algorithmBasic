@@ -92,6 +92,7 @@ public class 순열_조합 {
 			dice4(cnt+1, i+1);
 		}
 	}
+	//
 }
 
 
