@@ -81,7 +81,7 @@ public class 순열_조합 {
 			dice3(cnt+1, i);
 		}
 	}
-	// 주사위던지기4 : 조합
+	// 주사위던지기4 : 조합//
 	private static void dice4(int cnt,int start) {
 		if(cnt == N) {
 			System.out.println(Arrays.toString(numbers));
