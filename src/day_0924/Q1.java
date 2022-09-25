@@ -91,7 +91,7 @@ class Q1 {
         int r1 = Integer.parseInt(temp[1]);
         int c1 = Integer.parseInt(temp[2]);
         int r2 = Integer.parseInt(temp[3]);
-        int c2 = Integer.parseInt(temp[4]);
+        int c2 = Integer.parseInt(temp[4]);//
         map[r2][c2] = map[r1][c1];
     }
     private static void print(String[][] map, String[] temp, List<String> list) {
