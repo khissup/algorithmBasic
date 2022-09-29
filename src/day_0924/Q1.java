@@ -63,7 +63,7 @@ class Q1 {
                             continue;
                         }
                         if(prevWord.equals(map[ny][nx])) {
-                            visited[ny][nx] = true;
+                            visited[ny][nx] = true;//
                             map[ny][nx] = strTemp[3];//
                             queue.add(new int[]{ny, nx});//
                         }
