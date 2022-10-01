@@ -17,7 +17,7 @@ public class 부분집합 {
 		
 		
 		
-		subset(0,-5);
+		subset(0, 5);
 	}
 
 	private static void subset(int now,int sum) { 
