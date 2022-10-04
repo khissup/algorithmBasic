@@ -12,7 +12,7 @@ public class FileNameChange {
     }
     private static void ListFile( String strDirPath ) {
 
-        File path = new File( strDirPath );
+        File path = new File( strDirPath );//
         File[] fList = path.listFiles();
 
         for( int i = 0; i < fList.length; i++ ) {
