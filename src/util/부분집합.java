@@ -29,7 +29,7 @@ public class 부분집합 {
 					//System.out.print(input[i]);
 					System.out.print("\t");
 				}
-				System.out.println();
+				System.out.println();//
 			}
 			return;
 		}
