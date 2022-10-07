@@ -11,7 +11,7 @@ public class 부분집합 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		input = new int[] {-7,-3,-2,5,8};
-		N = input.length;
+		N = input.length;//
 		
 		isSelected = new boolean[N];
 		
