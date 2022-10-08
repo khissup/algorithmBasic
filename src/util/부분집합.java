@@ -34,7 +34,7 @@ public class 부분집합 {
 			return;
 		}
 		// 원소 선택
-		isSelected[now] = true;
+		isSelected[now] = true;//
 		subset(now+1 , sum+input[now]);
 
 		// 원소 미선택
