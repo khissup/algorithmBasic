@@ -15,8 +15,8 @@ import java.util.List;
 // 현재 폴더 안에 있는 하위폴더의 파일들 상위폴더로 전부 이동
 public class FileTest2 {
     public static void main(String[] args) throws IOException {
-//        String strDirPath = "C:\\Users\\KH\\Downloads";
-//        ListFile( strDirPath );
+        String strDirPath = "C:\\Users\\KH\\Downloads\\";
+        ListFile( strDirPath );
     }
     private static void ListFile( String strDirPath ) throws IOException {
 

@@ -12,17 +12,15 @@ package FileNameChange;
 // 현재 폴더 안에 있는 하위폴더의 파일들 상위폴더로 전부 이동
 public class FileTest {
     public static void main(String[] args) throws IOException {
-//        String strDirPath = "C:\\Users\\KH\\Downloads";
-//        ListFile( strDirPath );
+        String strDirPath = "C:\\Users\\KH\\Downloads\\";
+        ListFile( strDirPath );
     }
     private static void ListFile( String strDirPath ) throws IOException {
 
         File path = new File( strDirPath );
 
         File[] fList = path.listFiles();
-        if(fList.length % 2 != 0) {
-            return;
-        }
+
         Arrays.sort(fList, (a, b) -> {
             try {
                 BasicFileAttributes attrA = Files.readAttributes(a.toPath(), BasicFileAttributes.class);
@@ -46,6 +44,7 @@ public class FileTest {
 
                 // 기존경로
                 String currentPath = file.getPath();
+                System.out.println(currentPath);
                 int startIndex = 0;
                 List<Integer> list = new ArrayList<>();
                 List<Integer> dotList = new ArrayList<>();

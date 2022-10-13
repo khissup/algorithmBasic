@@ -7,8 +7,8 @@ import java.util.List;
 // 가장 하위폴더까지 들어간후, 바로 윗 상위폴더 이름 + 순번에 따라 이름변경
 public class FileNameChange {
     public static void main(String[] args) {
-        // String strDirPath = "C:\\Users\\UserName\\Desktop\\folder";
-        // ListFile( strDirPath );
+//         String strDirPath = "C:\\Users\\KH\\Downloads\\";
+//         ListFile( strDirPath );
     }
     private static void ListFile( String strDirPath ) {
 
