@@ -17,7 +17,7 @@ class Main_B15961 {
         n = Integer.parseInt(st.nextToken());
         d = Integer.parseInt(st.nextToken());
         k = Integer.parseInt(st.nextToken());
-        c = Integer.parseInt(st.nextToken());
+        c = Integer.parseInt(st.nextToken());//
         arr = new int[n];
 
         for (int i = 0; i < n; i++) {
