@@ -17,7 +17,7 @@ public class Main_B2839 {
         bw.close();
         br.close();//
     }
-    // cal
+    //  cal
     private static int cal(int num) {
         int result = Integer.MAX_VALUE;
         int i = 0;
