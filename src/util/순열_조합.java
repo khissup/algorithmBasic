@@ -53,7 +53,7 @@ public class 순열_조합 {
 	private static void dice2(int cnt) { //순열
 		if(cnt == N) {
 			System.out.println(Arrays.toString(numbers));
-			//
+
 			return;
 		}
 		
