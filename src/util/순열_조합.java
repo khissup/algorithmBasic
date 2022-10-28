@@ -85,7 +85,7 @@ public class 순열_조합 {
 	private static void dice4(int cnt,int start) {
 		if(cnt == N) {
 			System.out.print("");
-			System.out.println(Arrays.toString(numbers));//
+			System.out.println(Arrays.toString(numbers));
 			return;
 		}
 		for (int i = start; i <= 6; i++) {
