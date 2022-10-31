@@ -77,7 +77,7 @@ public class 순열_조합 {
 			return;
 		}
 		for (int i = start; i <= 6; i++) {
-			numbers[cnt] = i;//
+			numbers[cnt] = i;
 			dice3(cnt+1, i);
 		}
 	}
