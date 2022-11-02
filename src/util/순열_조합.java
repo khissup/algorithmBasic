@@ -91,7 +91,7 @@ public class 순열_조합 {
 		for (int i = start; i <= 6; i++) {
 			numbers[cnt] = i;
 			dice4(cnt+1, i+1);
-		}//
+		}
 	}
 }
 
