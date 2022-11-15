@@ -79,7 +79,7 @@ public class 순열_조합 {
 		for (int i = start; i <= 6; i++) {
 			numbers[cnt] = i;
 			dice3(cnt+1, i);
-		}//
+		}
 	}
 	// 주사위던지기4 : 조합
 	private static void dice4(int cnt,int start) {
