@@ -19,7 +19,7 @@ public class 순열_조합 {
 		
 //		dice1(0);
 //		isSelected = new boolean[7]; // 1~6 주사위눈 선택여부
-//		dice2(0);
+//		dice2(0);//
 //		dice3(0, 1);
 		dice4(0,1);
 	}
