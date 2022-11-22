@@ -38,7 +38,7 @@ public class 순열_조합 {
 			numbers[cnt] = i;
 			// 다음 주사위던지러 가기
 			dice1(cnt+1);
-			//return;
+			//return;//
 			
 			// numbers[0] = 1;
 			// numbers[1] = 5;
