@@ -69,7 +69,7 @@ public class 순열_조합 {
 			isSelected[i] = false;
 		}
 	}
-	//
+
 	// 주사위던지기3 : 중복조합
 	private static void dice3(int cnt,int start) {
 		if(cnt == N) {
